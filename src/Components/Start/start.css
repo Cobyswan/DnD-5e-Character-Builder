@@ -1,0 +1,52 @@
+body {
+    background-image: url('https://i.ytimg.com/vi/YBI1yMqayZ0/maxresdefault.jpg');
+    background-size: 100vw 100vh;
+}
+.container {
+    
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background: rgba(0, 0, 0, 0.8);
+    border: black solid 1px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45vw;
+    padding: 10px;
+}
+
+.titleContainer {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+.inputButtonContainer {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nameInput {
+    border: solid black 1px;
+    border-radius: 5px;
+    height: 30px;
+    width: 85%;
+}
+
+.enterButton {
+    border: solid black 1px;
+    border-radius: 5px;
+    width: 85%;
+    margin-bottom: 25px;
+}
